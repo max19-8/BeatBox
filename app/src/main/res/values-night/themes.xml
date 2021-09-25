@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BeatBox" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/gray</item>
+        <item name="android:windowBackground">@color/soothing_blue</item>
+        <item name="colorButtonNormal">@style/BeatBoxButton</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <!-- Status bar color. -->
+        <item name="statusBarBackground">@color/dark_red</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BeatBoxButton">
+        <item name="android:backgroundTint">@drawable/button_beat_box</item>
+    </style>
+</resources>
